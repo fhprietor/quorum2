@@ -20,8 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ec53bdf-6eda-4dc8-9c96-d22148e8205b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/verify.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/verify.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +160,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1613971138360</updated>
-      <workItem from="1613971139609" duration="713000" />
+      <workItem from="1613971139609" duration="1824000" />
     </task>
     <servers />
   </component>
@@ -180,9 +179,9 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="1605" y="358" width="583" height="566" key="find.popup" timestamp="1613971506291">
+    <state x="1605" y="358" width="583" height="566" key="find.popup" timestamp="1613972859221">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1605" y="358" width="583" height="566" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1613971506291" />
+    <state x="1605" y="358" width="583" height="566" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1613972859221" />
   </component>
 </project>
