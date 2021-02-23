@@ -21,7 +21,7 @@ class CreateVotesTable extends Migration
             $table->timestamps();
 
             $table->foreign('option_id')->references('id')->on('larapoll_options');
-            $table->foreign('user_id')->references('id')->on('users');
+            //$table->foreign('user_id')->references('id')->on('users');
         });
     }
 
