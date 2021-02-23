@@ -16,7 +16,7 @@ class CreateVotesTable extends Migration
         Schema::create('larapoll_votes', function (Blueprint $table) {
             $table->increments('id');
 //            $table->string('user_id');
-            $table->unsignedInteger('user_id');
+            $table->unsignedBigInteger('user_id');
             $table->unsignedInteger('option_id');
             $table->timestamps();
 
