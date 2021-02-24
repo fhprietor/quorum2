@@ -80,6 +80,9 @@
             @endif
 
             <div class="content">
+                <div>
+                    <img src="logow.jpg" alt="" style="width:100px;height:120px;">
+                </div>
                 <div class="title m-b-md">
                     Quorum
                 </div>
