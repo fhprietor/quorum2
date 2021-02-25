@@ -16,11 +16,13 @@
                 </div>
 
                     <div class="align-content-md-center links">
+                        <!--
                         <div>
                             <a href="{{ url('/admin_polls/admin/polls') }}">MODERADOR</a>
                         </div>
+                        -->
                         <div>
-                            <a href="{{ url('/admin_polls/polls/lists') }}">VOTANTE</a>
+                            <a class="btn btn-info btn-sm" href="{{ url('/admin_polls/polls/lists') }}">Entrar a votaciones</a>
                         </div>
                     </div>
             </div>
