@@ -11,6 +11,9 @@ class User extends Authenticatable implements MustVerifyEmail
 {
     use Notifiable, Voter;
 
+    const ADMIN = 'ADMIN';
+    const VOTER = 'VOTER';
+    const MODERATOR = 'MODERATOR';
     /**
      * The attributes that are mass assignable.
      *
@@ -37,4 +40,8 @@ class User extends Authenticatable implements MustVerifyEmail
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function isModerator() {
+        return $this->role === User::MODERATOR;
+    }
 }

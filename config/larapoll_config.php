@@ -8,4 +8,5 @@ return [
     'radio' => '',
     'checkbox' => '',
     'user_model' => App\User::class,
+    'register_enabled' => true,
 ];

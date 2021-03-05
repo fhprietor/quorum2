@@ -72,16 +72,17 @@
                     @else
                         <a href="{{ route('login') }}">Conectarse</a>
 
-                        @if (Route::has('register'))
+                        @if (Route::has('register') && config('larapoll_config.register_enabled'))
                             <a href="{{ route('register') }}">Registrarse</a>
                         @endif
+
                     @endauth
                 </div>
             @endif
 
             <div class="content">
                 <div>
-                    <img src="logow.jpg" alt="" style="width:100px;height:120px;">
+                    <img src="logowcuttransparent.png" alt="" style="width:126px;height:130px;">
                 </div>
                 <div class="title m-b-md">
                     Quorum

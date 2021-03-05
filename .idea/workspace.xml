@@ -20,9 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ec53bdf-6eda-4dc8-9c96-d22148e8205b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/lang/es/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/es/messages.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/es/pagination.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/es/passwords.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/es/validation.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/logging.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/larapoll_config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/larapoll_config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,11 +154,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/vendor/inani/larapoll/src/views/dashboard" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/lang/es" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Desarrollo\pruebas\xx\poll\resources\lang\es" />
       <recent name="D:\Desarrollo\pruebas\xx\poll\vendor\inani\larapoll\src\views\dashboard" />
     </key>
   </component>
@@ -170,7 +180,14 @@
       <workItem from="1613971139609" duration="5313000" />
       <workItem from="1614041368849" duration="5816000" />
       <workItem from="1614119569296" duration="22260000" />
-      <workItem from="1614219979088" duration="3614000" />
+      <workItem from="1614219979088" duration="6194000" />
+      <workItem from="1614303379746" duration="668000" />
+      <workItem from="1614308514791" duration="172000" />
+      <workItem from="1614336587937" duration="1397000" />
+      <workItem from="1614394341520" duration="46190000" />
+      <workItem from="1614544226955" duration="1267000" />
+      <workItem from="1614645226888" duration="8421000" />
+      <workItem from="1614855639255" duration="4472000" />
     </task>
     <servers />
   </component>
@@ -190,9 +207,28 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1613" y="545" width="583" height="566" key="find.popup" timestamp="1614147077244">
+    <state x="514" y="680" key="NewPhpFileDialog" timestamp="1614900231117">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1613" y="545" width="583" height="566" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1614147077244" />
+    <state x="514" y="680" key="NewPhpFileDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1614900231117" />
+    <state x="1820" y="595" width="583" height="566" key="find.popup" timestamp="1614898963959">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1820" y="595" width="583" height="566" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1614898963959" />
+    <state x="338" y="438" width="672" height="678" key="search.everywhere.popup" timestamp="1614653053500">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="338" y="438" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1614653053500" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/welcome.blade.php</url>
+          <line>83</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
